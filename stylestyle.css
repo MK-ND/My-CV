@@ -126,6 +126,7 @@ nav:hover .user-profile{
     margin: 0;
     padding: 0;
     text-decoration: none;
+    height: 6rem;
  
 }
 .fa-primary, .fa-secondary{
@@ -151,7 +152,6 @@ nav:hover .user-profile{
     align-items: center;
     filter: grayscale(100%) opacity(0.7);
     transition: var(--transition-speed);
-    height: 6rem;
 }
 .nav-link svg{
     min-width: 3rem;
@@ -177,6 +177,7 @@ nav:hover .nav-link{
     background-color: var(--color-2);
 }
 
+/*Fuck*/
 
 
 
