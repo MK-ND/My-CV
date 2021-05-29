@@ -85,6 +85,7 @@ nav{
     padding: 2rem 0;
     display: flex;
     transition: var(--transition-speed);
+    cursor: pointer;
 }
 .nav-item-tittle{
     display: none;
@@ -114,8 +115,12 @@ nav:hover .user-profile{
     left: 0px;
     
 }
-
-
+/*Active Nav*/
+.active {
+    background-color: var(--color-2);
+    color: var(--color-4);
+    filter: grayscale(0) opacity(1);
+}
 /*Logo*/
 
 .nav-logo{
